@@ -607,7 +607,9 @@
 
     <!-- MAIN FORM -->
     <div class="main">
-     <form name="artist-form" method="POST" data-netlify="true" action="/success" enctype="multipart/form-data">
+     <form name="emi-artist-registration" method="POST" data-netlify="true" enctype="multipart/form-data">
+      <input type="hidden" name="form-name" value="emi-artist-registration">
+      <input type="hidden" name="redirect" value="/success">
       <!-- <form
         id="registrationForm"
         name="emi-artist-registration"
@@ -616,7 +618,7 @@
         action="https://formspree.io/f/xgopzwpy"
       >
         <input type="hidden" name="_gotcha" /> -->
-        <input type="hidden" name="form-name" value="emi-artist-registration" />
+        
 
         <!-- SECTION 1 -->
         <div class="form-section" id="sec1">
